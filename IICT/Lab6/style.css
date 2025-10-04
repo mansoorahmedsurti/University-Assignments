@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f8fa;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #101820;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+header h1 {
+  color: #e0b54d;
+  margin-bottom: 6px;
+}
+
+nav a {
+  color: #e0b54d;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+section {
+  background: #fff;
+  padding: 16px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  color: #101820;
+  border-left: 5px solid #e0b54d;
+  padding-left: 8px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+.main-img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+caption {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+thead {
+  background: #e0b54d20;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, select, textarea, button {
+  font-size: 1rem;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+button {
+  background: #e0b54d;
+  color: #101820;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background: #cda946;
+}
+
+footer {
+  background: #101820;
+  color: #ccc;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 0.9rem;
+}

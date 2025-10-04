@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khabib Nurmagomedov — HTML & CSS Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Khabib Nurmagomedov</h1>
+    <p>The Eagle of Dagestan — A True MMA Legend</p>
+    <nav>
+      <a href="#bio">Biography</a>
+      <a href="#career">Career Highlights</a>
+      <a href="#stats">Career Stats</a>
+      <a href="#form">Fan Form</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="bio">
+      <h2>Biography</h2>
+      <p>
+        <strong>Khabib Abdulmanapovich Nurmagomedov</strong> (born September 20, 1988)
+        is a retired Russian mixed martial artist and former <em>UFC Lightweight Champion</em>.
+        He retired <mark>undefeated with 29–0</mark>, holding the longest active win streak in UFC history.
+      </p>
+
+      <img src="khabib.jpeg"
+           alt="Khabib Nurmagomedov" class="main-img">
+
+      <p>
+        Known for his <u>unmatched grappling, discipline, and respect</u>, Khabib is admired
+        both as a fighter and as a man of faith. His father, <strong>Abdulmanap Nurmagomedov</strong>,
+        was his lifelong coach and mentor.
+      </p>
+    </section>
+
+    <section id="career">
+      <h2>Career Highlights</h2>
+      <ul>
+        <li>UFC Lightweight Champion (2018–2020)</li>
+        <li>29 Wins, 0 Losses (Retired Undefeated)</li>
+        <li>Longest Lightweight Title Reign in UFC History</li>
+        <li>First Muslim UFC Champion</li>
+      </ul>
+
+      <h3>Top Victories</h3>
+      <ol>
+        <li>vs. Conor McGregor — UFC 229</li>
+        <li>vs. Dustin Poirier — UFC 242</li>
+        <li>vs. Justin Gaethje — UFC 254</li>
+      </ol>
+    </section>
+
+    
+    <section id="stats">
+      <h2>Career Stats</h2>
+      <table>
+        <caption>Khabib’s Fight Record</caption>
+        <thead>
+          <tr>
+            <th>Opponent</th>
+            <th>Event</th>
+            <th>Result</th>
+            <th>Method</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Conor McGregor</td>
+            <td>UFC 229</td>
+            <td>Win</td>
+            <td>Submission (Neck Crank)</td>
+          </tr>
+          <tr>
+            <td>Dustin Poirier</td>
+            <td>UFC 242</td>
+            <td>Win</td>
+            <td>Submission (Rear-Naked Choke)</td>
+          </tr>
+          <tr>
+            <td>Justin Gaethje</td>
+            <td>UFC 254</td>
+            <td>Win</td>
+            <td>Submission (Triangle Choke)</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    
+    <section id="form">
+      <h2>Join the Fan Club</h2>
+      <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" required>
+
+        <label for="favfight">Favorite Khabib Fight:</label>
+        <select id="favfight">
+          <option>vs Conor McGregor</option>
+          <option>vs Dustin Poirier</option>
+          <option>vs Justin Gaethje</option>
+        </select>
+
+        <label>Would you attend a Khabib seminar?</label>
+        <input type="radio" name="attend" value="yes"> Yes
+        <input type="radio" name="attend" value="no"> No
+
+        <label>Your Message:</label>
+        <textarea rows="4" placeholder="Why do you admire Khabib?"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Khabib Fan Page | Built with HTML &amp; CSS</p>
+  </footer>
+</body>
+</html>
