@@ -1,5 +1,5 @@
 // BMI (Body Mass Index) Calculator
-// Input weight (kg) and height (m).
+// Input weight(kg) and height(m).
 // - Compute BMI = weight / (height^2).
 // - Use nested if-else to classify:
 //   <18.5 → Underweight
