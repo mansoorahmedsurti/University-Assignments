@@ -1,0 +1,10 @@
+# Ignore C/C++ compiled and linked files
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.out
+*.o
+
+# Ignore VS Code-specific folders and files (optional, but common)
+.vscode/
